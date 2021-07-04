@@ -1,11 +1,19 @@
- 🚩hola mi nombre es gabriel vivo en Parana Entre Rios  el carpincho es nuestro vecino🦦🌫 🌳el espinillo o churqui es nuestro arbol representativo
- me crie en villaguay tierra de gente con cuchillos y mate 🧉👺🔪 y hace muy poco que disfruto leer codigo y crear cosas con la maquina 👨‍💻 
+# Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles. Con miles de métodos de programa de utilidad HTTP y middleware a su disposición, la creación de una API sólida es rápida y sencilla.
 
- este es el discord en el que estoy siempre y mis redes sociales 🌎
- Discord
- 👺https://discord.gg/JHHvMBPt
- Istagram
- https://www.instagram.com/gabrielbrufaunestor/
- twitter
- https://twitter.com/GabrielBrufau
-
+#instalacion
+```bash
+$ npm install express --save // --save deprecado para node.js
+```
+# requerimos expres
+```bash
+ const express = require('express')
+```
+# esto nos devuelve una funcion que pondremos en una constante
+```bash
+const app = express()
+```
+# esta funcion nos devuelve propiedades y methodos
+```bash
+  app.use
+     .
+```
