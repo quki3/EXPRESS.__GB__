@@ -1,4 +1,4 @@
-# Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles. Con miles de métodos de programa de utilidad HTTP y middleware a su disposición, la creación de una API sólida es rápida y sencilla.
+# Express 
 
 #instalacion
 ```bash
@@ -14,6 +14,8 @@ const app = express()
 ```
 # esta funcion nos devuelve propiedades y methodos
 ```bash
-  app.use
+  app.use //? monta una espesifica funcion o middleware en un espesifico path(ruta) esta
+              middlewarefunction es ejecutada cuando la base de la peticion (requested)
+              del path(ruta) coinsida con el path
      .
 ```
