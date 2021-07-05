@@ -23,5 +23,6 @@ const app = express()
                                                    .A path pattern.
                                                    .una exprecion regular pattern que haga match con el path(ruta)
                                                    .un array de combinaciones de cualquiera de las anteriores
+                             .callback => puede ser => una funcion middleware
      .
 ```
