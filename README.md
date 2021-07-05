@@ -17,5 +17,11 @@ const app = express()
   app.use //? monta una espesifica funcion o middleware en un espesifico path(ruta) esta
               middlewarefunction es ejecutada cuando la base de la peticion (requested)
               del path(ruta) coinsida con el path
+              |argumentos que recibe|
+              (path,callback)
+                             .path => puede ser => .una string representando el path(ruta)
+                                                   .A path pattern.
+                                                   .una exprecion regular pattern que haga match con el path(ruta)
+                                                   .un array de combinaciones de cualquiera de las anteriores
      .
 ```
